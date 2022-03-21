@@ -43,7 +43,7 @@ class MyRootComponent extends React.Component {
         return (
             <div>
                 <div style={headerStyle}>
-                    <Header></Header>
+                    <Header framework="React"></Header>
                 </div>
                 <div style={container}>
                     <div style={sidebarStyle}>

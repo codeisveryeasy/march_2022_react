@@ -15,7 +15,7 @@ class Header extends React.Component {
                     border: "1px solid purple",
                     borderRadius: "10px"
                 }}
-                >Learn React in {this.duration} hours!!!!
+                >Learn {this.props.framework} in {this.duration} hours!!!!
                 </h1>
                 <h1 style={{color:"goldenrod"}}>Logo</h1>
             </div>

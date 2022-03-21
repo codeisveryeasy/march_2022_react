@@ -15,7 +15,7 @@ class Product extends React.Component {
                 <ProductTitle pname={this.props.productname}></ProductTitle>
                 <ProductPhoto picture={this.props.photo}></ProductPhoto>
                 <ProductDescription></ProductDescription>
-                <AddToCart></AddToCart>
+                <AddToCart qty = {this.props.quantity}></AddToCart>
                 <hr></hr>
 
             </div>
