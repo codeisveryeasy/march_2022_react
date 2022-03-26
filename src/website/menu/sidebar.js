@@ -16,6 +16,8 @@ class Sidebar extends React.Component {
                     <Link to="/friends">Friends</Link>
                     <br></br>
                     <Link to="/contact">Contact</Link>
+                    <br></br>
+                    <Link to="/lifecycle">Lifecycle</Link>
                 </div>
             </div>
         );
