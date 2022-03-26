@@ -6,10 +6,10 @@
 // post react 15.3 -> function way took Over. You use hooks.
 
 import React from 'react';
-import Content from '../website/content';
 import Header from '../website/header';
 
-import Sidebar from '../website/sidebar';
+import Sidebar from '../website/menu/sidebar';
+import Container from '../website/container/container';
 
 
 class MyRootComponent extends React.Component {
@@ -50,7 +50,7 @@ class MyRootComponent extends React.Component {
                         <Sidebar></Sidebar>
                     </div>
                     <div style={contentStyle}>
-                        <Content></Content>
+                        <Container></Container>
                     </div>
                 </div>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Product from './catalog/product';
+import Product from './product';
 
 
 class Content extends React.Component {
